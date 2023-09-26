@@ -1,14 +1,15 @@
+import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Home from './home'
-import About from './about'
-import Form from './register'
+import AboutUs from './about'
+import Register from './register'
 
 function App() {
   const [tapBar, setTabBar] = useState('Home')
   let router = ''
   switch (tapBar) {
-    case "About Us": router = <About/>
+    case "About Us": router = <AboutUs/>
       break;
     case "Register": router = null
       break;

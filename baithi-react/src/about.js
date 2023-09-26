@@ -1,30 +1,29 @@
-
-import React  from 'react';
-import './about.css';
-
-const About = () => {
+import "./App.css";
+function AboutUs() {
   return (
-    <div className="about-us">
-      <h1>About Us</h1>
-      <div className="team">
-        <div className="ceo">
-          <h2>CEO</h2>
-          <p>Nguyen Thi Hanh</p>
+    <h3 className='AboutUs'>
+      About Us
+      <div className='Wrap2child'>
+        <div className='WrapCircle'>
+          <div className='Circle' style={{ backgroundColor: "greenyellow" }} />
+          <p>CEO: Nguyen Thi Hanh</p>
           <p>The founder is also the general managing director</p>
         </div>
-        <div className="cto">
-          <h2>CTO</h2>
-          <p>Nguyen Thanh Binh</p>
-          <p>10 years of experience in building a specialized technical team</p>
-        </div>
-        <div className="cfo">
-          <h2>CFO</h2>
-          <p>Nguyen Van Hoa</p>
-          <p>5 years of experience in financial management of leading enterprises in Vietnam</p>
+        <div className='WrapCircle'>
+          <div className='Circle' style={{ backgroundColor: "orange" }} />
+          <p>CTO: Nguyen Thanh Binh</p>
+          <p>
+            10 years of experience in building a specicalized technical team
+          </p>
         </div>
       </div>
-    </div>
+      <div className='WrapCircle'>
+        <div className='Circle' style={{ backgroundColor: "blue" }} />
+        <p>CFO: Nguyen Van Hoa</p>
+        <p>5 years of experience in financial management of leading enterprises in Vietnam </p>
+      </div>
+    </h3>
   );
-};
+}
 
-export default About;
+export default AboutUs;
