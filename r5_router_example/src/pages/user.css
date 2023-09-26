@@ -1,0 +1,13 @@
+section, h2{
+    color: brown;
+}
+section,img{
+    border-radius: 200px;
+    height: 350px;
+    width: 350px;
+}
+span{
+    color: rgb(100, 34, 215);
+    margin-top: 70px;
+    
+}
