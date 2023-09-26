@@ -11,8 +11,8 @@ function About(){
           </div>
         <div className="flex-item3">
           <img className="avatar" src="https://hthaostudio.com/wp-content/uploads/2019/08/Anh-Doanh-nhan-31-1.jpg" alt="CTO"></img>
-          <p><b>CEO: </b>Nguyen Thanh Binh</p>
-          <p>10 years of experience in building a specialized technical tea</p>
+          <p><b>CTO: </b>Nguyen Thanh Binh</p>
+          <p>10 years of experience in building a specialized technical team</p>
         </div>
       </div>
       <div className="flex-item3">
