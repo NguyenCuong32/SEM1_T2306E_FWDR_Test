@@ -45,7 +45,10 @@ h1{
 
 }
 h2{
-  color: rgb(18, 29, 184);
+  color: black;
+  text-align: left;
+  line-height: 50px;
+  font-size: 20px;
 }
 .flex-container
 {
@@ -84,5 +87,11 @@ border: 30px;
 
 }
 
+.boderexam1 {
 
+  border-radius: 200%;
+align-items: center;
+width: 400px;
+height: 400px;
+};
 
