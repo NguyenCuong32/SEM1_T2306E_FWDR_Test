@@ -2,7 +2,7 @@ import './App.css';
 function Rergister () {
   return (
 
-<div>
+<div><br/>
         <form style={{fontSize:20}}>
         <label>
             <b>Product</b>

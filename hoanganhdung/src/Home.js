@@ -2,7 +2,7 @@ import './App.css';
 const Home = () => {
     return(
         <>
-    <div>
+    <div><br/>
    <img className="boderexam1" src = {"http://genk.mediacdn.vn/k:2015/2-1440133142840/facebook-bat-dau-thu-nghiem-dang-anh-dong-tren-fanpage-va-quang-cao.gif"}/>
    </div>    
 <br/><br/><br/>
