@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Layout from './pages/layout.js';
 import Register from './pager/Register.js';
-// import User from './pages/user';
+import User from './pages/user';
 import About from './pages/about Us.js';
-// import App1 from './pager/home.js';
+import App1 from './pager/home.js';
 import App from './App.js'
 function App() {
   return (
