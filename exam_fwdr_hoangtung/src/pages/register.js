@@ -15,6 +15,8 @@ function LoginForm(){
             <form onSubmit={HandleSubmit}>
                 <label className='label1'>Product:</label>
                 <input
+                    value={product}
+                    onChange={(event)=>setProduct(event.target.value)}
                     className='ip'
                     name="product"
                     type="text"
