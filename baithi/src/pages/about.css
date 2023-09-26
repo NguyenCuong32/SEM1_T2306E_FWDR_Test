@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.flex-item1 {
+    flex-grow: 10;
+    text-align: center;
+}
+
+.flex-item2 {
+    flex-grow: 10;
+    text-align: center;
+  }
+
+  .flex-item3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+  }
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+.name {
+    font-style: italic;
+  }

@@ -1,0 +1,11 @@
+.top {
+    display: flex;
+}
+
+.link-layout{
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
