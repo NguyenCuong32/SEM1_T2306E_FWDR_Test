@@ -1,0 +1,19 @@
+th{
+    text-align: left;
+}
+
+
+.Register{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cancel{
+    background-color: rgb(163, 86, 86);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
