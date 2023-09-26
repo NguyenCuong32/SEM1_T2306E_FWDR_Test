@@ -3,9 +3,9 @@ import './App.css';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import Layout from './pages/layout';
 import Home from './pages/home';
-import User from './components/user';
 import About from './pages/about';
-import layout from './pages/layout.css'
+import layout from './pages/layout.css';
+import Form from './components/register';
 
     function App(){
       return(
