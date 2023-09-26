@@ -1,14 +1,14 @@
 import './App.css';
 import { useState } from 'react';
 import Home from './home'
-import AboutUs from './aboutme'
-import Register from './register'
+import About from './aboutme'
+import Form from './register'
 
 function App() {
   const [tapBar, setTabBar] = useState('Home')
   let router = ''
   switch (tapBar) {
-    case "About Us": router = <AboutUs/>
+    case "About Us": router = <About/>
       break;
     case "Register": router = null
       break;
