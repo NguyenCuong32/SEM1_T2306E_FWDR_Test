@@ -2,8 +2,10 @@ import { useState } from 'react';
 import '../css/register.css';
 
 function LoginForm(){
+    const [product, setProduct] = useState("");
+    const [name, setName] = useState("");
+    const [number, setNumber] = useState("");
     const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
     
     const HandleSubmit = (event)=>{
         event.preventDefault();
@@ -11,26 +13,44 @@ function LoginForm(){
     return(
         <div>
             <form onSubmit={HandleSubmit}>
-                <h1>Login Form</h1>
-                <label className='label1'>Email:</label>
+                <label className='label1'>Product:</label>
                 <input
+                    className='ip'
+                    name="product"
+                    type="text"
+                />
+                <br></br><br></br>
+                <label className='label2'>Name:</label>
+                <input
+                    className='ip'
+                    name="name"
+                    type="text"
+                />
+                <br></br><br></br>
+                <label className='label3'>Number:</label>
+                <input
+                    className='ip'
+                    name="number"
+                    type="text"
+                />
+                <br></br><br></br>
+                <label className='label4'>Email:</label>
+                <input
+                    className='ip'
                     value={email}
                     onChange={(event)=>setEmail(event.target.value)}
                     name="email"
                     type="email"
-                    placeholder='username'
                 />
                 <br></br><br></br>
-                <label className='label2'>Password:</label>
-                <input
-                    value={password}
-                    onChange={(event)=>setPassword(event.target.value)}
-                    name="password"
-                    type="password"
-                    placeholder='password'
-                />
-                <br></br><br></br>
-                <button type="submit">Submit</button>
+                <button 
+                    className='button'
+                    type="submit">Register
+                </button>
+                <button 
+                    className='button1'>
+                    Cancel
+                </button>
             </form>
         </div>
     );
