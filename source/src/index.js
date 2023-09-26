@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import layout from './Layout';
-import Home from './Home';
-import Register from './Register';
-import About from './About';
+import Layout from './layout';
+import Home from './home';
+import About from './about';
 
 
 function App(){
