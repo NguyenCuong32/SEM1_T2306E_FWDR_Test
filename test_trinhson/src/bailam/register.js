@@ -5,13 +5,17 @@ import { useState } from "react";
 function Register(){
     var [produc,setproduc] =useState('');
     var [name, setName]= useState("");
-    
+    var[message,setmessage] = useState("")
+    var[Message, setMes] = useState('')
+
     function butonCLick(){
         if(produc===""){
+            setmessage("ban vui long nhap lai")
 
         }
 
         if(name==""){
+            setMes("ban vui long nhap lai")
 
         }
 
@@ -24,11 +28,13 @@ function Register(){
             <table>
                 <tr>
                     <th>product</th>
-                    <td><input onBlur={(e)=>setproduc(e.target.value)}></input></td>
+                    <td><input onBlur={(e)=>setproduc(e.target.value)}></input>
+                    <p>{Message}</p></td>
                 </tr>
                 <tr>
                     <th>Name</th>
-                    <td><input onBlur={(e)=>setName(e.target.value)} ></input></td>
+                    <td><input onBlur={(e)=>setName(e.target.value)} ></input>
+                    <p>{message}</p></td>
                 </tr>
                 <tr>
                     <th>Phone Number</th>
