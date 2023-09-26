@@ -1,0 +1,47 @@
+.nav{
+  margin: 20px;
+  font-size: 20px;
+}
+.head{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.img_home{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.about_us{
+  text-align: center;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+}
+.img_user{
+  width: 200px;
+  border-radius: 50%;
+}
+.Register{
+  text-align: center;
+}
+.button_r{
+  padding: 10px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+}
+.button_r:hover{
+  opacity: 0.5;
+}
+.label{
+  width: 150px;
+}
+.input{
+  width: 300px;
+  padding: 10px;
+}
+.user1{
+  margin-left: 10px;
+  margin-right: 10px;
+}
