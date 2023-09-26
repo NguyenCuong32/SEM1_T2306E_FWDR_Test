@@ -18,6 +18,7 @@ function LoginForm(){
                     className='ip'
                     name="product"
                     type="text"
+                    required
                 />
                 <br></br><br></br>
                 <label className='label2'>Name:</label>
@@ -41,6 +42,7 @@ function LoginForm(){
                     onChange={(event)=>setEmail(event.target.value)}
                     name="email"
                     type="email"
+                    required
                 />
                 <br></br><br></br>
                 <button 
