@@ -4,8 +4,8 @@ const Layout =() =>{
         <div className="user">
         <nav className="nav-list">
              <Link to="/">Home</Link>
-            <Link to="/pages/User">About Us</Link>
-            <Link to="/pages/Register">Register</Link>
+            <Link to="/User">About Us</Link>
+            <Link to="/Register">Register</Link>
         </nav>
         <Outlet />
         </div>
