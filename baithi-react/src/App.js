@@ -1,16 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import Layout from './pages/layout';
-import Home from './pages/home';
-import About from './pages/about';
-import layout from './pages/layout.css';
-import Form from './components/register';
-
 import './App.css';
 import { useState } from 'react';
-
-import AboutUs from './AboutUs'
+import Home from './home'
+import About from './about'
+import Form from './register'
 
 function App() {
   const [tapBar, setTabBar] = useState('Home')

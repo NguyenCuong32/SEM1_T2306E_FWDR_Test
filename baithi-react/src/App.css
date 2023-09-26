@@ -38,7 +38,7 @@
 }
 
 .TapBar {
-  margin-top: 10px;
+  margin: 10px 0;
   display: flex;
   flex-direction: row;
 }
@@ -46,6 +46,10 @@
 .TapBar > p{
   margin:0 4px ;
   position: relative;
+}
+
+.TapBar > p:hover{
+  cursor: pointer;
 }
 
 .TapBar > p::before {
@@ -64,10 +68,40 @@
   height: 100vh;
   background-color: green;
   color: white;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .background {
   background-image: url('https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.WrapCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wrap2child {
+  display: flex;
+  flex-direction: row;
 }
