@@ -1,0 +1,9 @@
+.profile{
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+    margin: left 300px;
+}
+.user-name{
+    text-align: center;
+}
