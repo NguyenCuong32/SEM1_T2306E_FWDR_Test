@@ -11,7 +11,7 @@ function Rergister () {
           <b>Name</b>
           {" "} <input className= "re2"  style={{fontSize:20}} type="text" required />
           <br></br> <br></br>
-          <b>Phone number</b>
+          <b>Phone Number</b>
           {" "}  <input className= "re3" style={{fontSize:20}} type="text" required />
           <br></br> <br></br>
           <b>Email</b>
