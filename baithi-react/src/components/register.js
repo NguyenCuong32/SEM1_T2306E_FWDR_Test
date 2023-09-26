@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useForm } from "react-hook-form";
+import { useForm } from "react";
 
 const Form = () => {
   const [formData, setFormData] = useState({

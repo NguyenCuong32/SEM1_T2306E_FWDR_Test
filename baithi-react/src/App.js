@@ -7,21 +7,33 @@ import About from './pages/about';
 import layout from './pages/layout.css';
 import Form from './components/register';
 
-    function App(){
-      return(
-      <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Layout />}>
-         <Route path="/home" element ={<Home />}></Route>
-         <Route path="/about" element ={<About />}></Route>
-         <Route path="/register" element ={<User />}></Route>
-         </Route>
+import './App.css';
+import { useState } from 'react';
 
-        </Routes>
-      </BrowserRouter>
-      );
-    }
+import AboutUs from './AboutUs'
+
+function App() {
+  const [tapBar, setTabBar] = useState('Home')
+  let router = ''
+  switch (tapBar) {
+    case "About Us": router = <AboutUs/>
+      break;
+    case "Register": router = null
+      break;
+    default: router = <Home/>
+      break;
+  }
   
-
+  return (
+    <div className="App">
+      <div className='TapBar'>
+        <p onClick={() => {setTabBar("Home")}}>Home</p>
+        <p onClick={() => {setTabBar("About Us")}}>About Us</p>
+        <p onClick={() => {setTabBar("Register")}}>Register</p>
+      </div>
+      {router}
+    </div>
+  );
+}
 
 export default App;
