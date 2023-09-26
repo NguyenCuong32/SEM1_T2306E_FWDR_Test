@@ -1,0 +1,8 @@
+.register1{
+    display: flex;
+}
+.register2{
+    margin: 30px;
+    padding: 10px;
+    display: table-row;
+}
