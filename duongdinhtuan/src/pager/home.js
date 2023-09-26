@@ -3,7 +3,7 @@ import Home from './pager/home.js';
 import About from './pager/About Us.js'
 import Register from './pager/Register.js';
 import './App.css'
-function App1() {
+function Home() {
     return (
         <BrowserRouter className='pager'>
             <Routes>
@@ -24,4 +24,4 @@ function App1() {
         </BrowserRouter >
     );
 }
-export default App1;
+export default Home;
